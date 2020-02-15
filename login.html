@@ -1,0 +1,106 @@
+<!------ Include the above in your HEAD tag ---------->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <title></title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+    <div class="container">
+      <a class="navbar-brand" href="#">LEGAL EAGLE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Register.html">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="parent">
+    <div class="container login">
+      <div class="row">
+        <div class="col-md-3 login-left">
+          <img src="https://lh3.googleusercontent.com/proxy/0ugoBd8clYXeEQFWnwQbSnwLC5hcentCcWLy19YurXbtzr_9zmx20KGn_AwKjca8iK-u6zA8mOi3JyvfyBeV-Zp8IH4XwpM" alt="" />
+          <link rel="stylesheet" href="css/login.css">
+          <h3>Welcome</h3>
+          <p>Login Now</p>
+
+        </div>
+        <div class="col-md-9 login-right">
+          <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Lawywer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Client</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <h3 class="login-heading">Login for Lawyer</h3>
+              <div class="row login-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Emai Id *" value="" />
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password *" value="" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                <input type="submit" class="btnlogin" value="login" />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <h3 class="login-heading">Login for Client</h3>
+              <div class="row login-form">
+                <div class="col-md-6">
+
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email *" value="" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password *" value="" />
+                  </div>
+                <input type="submit" class="btnlogin" value="login" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
